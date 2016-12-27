@@ -1,9 +1,10 @@
 #top-nav {
-  float: right;
+
   margin-right: 11.5px;
   margin-top: 5px;
   font-family: 'Roboto', sans-serif;
   font-size: small;
+  text-align: right;
 
 }
 a {
@@ -56,12 +57,14 @@ text-decoration: underline;
 
 #logo{
 
-  margin-top: 200px;
   background-size: 272px 92px;
   height: 92px;
   width: 272px;
   background-image: url(googlelogo_color_272x92dp.png);
-}
- div {
-    clear: left;
+  margin: 150px auto 0 auto;
+
+ 
+
+
+
 }

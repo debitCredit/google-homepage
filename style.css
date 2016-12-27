@@ -1,7 +1,7 @@
 #top-nav {
 
-  margin-right: 11.5px;
-  margin-top: 5px;
+  margin-right: 20px;
+  margin-top: 15px;
   font-family: 'Roboto', sans-serif;
   font-size: small;
   text-align: right;
@@ -24,18 +24,19 @@ text-decoration: underline;
 #images{
   width: 84px;
   line-height: 20px;
-  padding: 12px;
+  padding: 15px;
 }
 
 #sign-in{
   display: inline-block;
   line-height: 28px;
-  padding: 0 12px;
+  padding: 0 15px;
   position: relative;
   background-color: #4285f4;
   color: white;
   margin-left: 12px;
   font-weight: bold;
+  border-radius: 2px;
 }
 
 
@@ -62,8 +63,17 @@ text-decoration: underline;
   width: 272px;
   background-image: url(googlelogo_color_272x92dp.png);
   margin: 150px auto 0 auto;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
 
- 
+}
+
+
+#country-indicator{
+    font-family: 'Roboto', sans-serif;
+    color: #4285F4;
+    margin-right: 35px
 
 
 

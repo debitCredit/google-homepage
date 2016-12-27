@@ -125,3 +125,37 @@ input[type=text] {
   border: 0.1px #d9d9d9 solid;
   color: black;
 }
+
+footer {
+  position: absolute;
+  bottom: 0px;
+  background: #f2f2f2;
+  border-top: 1px solid #e4e4e4;
+	height: 40px;
+  width: 100%;
+  font-family: 'Roboto', sans-serif;
+  font-size: small;
+}
+
+#left-footer, #right-footer {
+  position: absolute;
+  line-height: 15px;
+  opacity: .75;
+}
+
+#left-footer {
+  left: 0px;
+}
+
+#right-footer {
+  right: 0px;
+}
+
+footer ul li {
+	margin: 0 40px 0px 0px;
+}
+
+li {
+  float: left;
+  list-style-type: none;
+}

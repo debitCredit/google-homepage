@@ -86,8 +86,8 @@ box-shadow: inset 0 2px 0 rgba(0,0,0,.15);
   margin: 40px auto 0 auto;
   background-color: #ffffff;
   border: 0.1px #d9d9d9 solid;
-  width: 45%;
-  height: 40px;
+  width: 55%;
+  height: 45px;
   box-shadow: .5px .5px 2px 0px #999;
   color: black;
 }
@@ -102,5 +102,26 @@ input[type=text] {
     margin: 8px 0;
     box-sizing: border-box;
 }
+#buttons{
+  margin: 30px 35%;
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+}
 
+#google-search, #im-feeling-lucky{
+  background-color: #F4F4F4;
+  color: #757575;
+  padding: 10px;
+  font-weight: bold;
+  border: 0px #d9d9d9 solid;
+}
+
+#google-search:hover{
+  border: 0.1px #d9d9d9 solid;
+}
+
+#im-feeling-lucky:hover{
+  border: 0.1px #d9d9d9 solid;
+  color: black;
 }

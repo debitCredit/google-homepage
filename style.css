@@ -39,6 +39,13 @@ text-decoration: underline;
   border-radius: 2px;
 }
 
+#sign-in:hover {
+	box-shadow: 0 1px 0 rgba(0,0,0,.15);
+	text-decoration: none;
+}
+#sign-in:active {
+box-shadow: inset 0 2px 0 rgba(0,0,0,.15);
+}
 
 #apps {
   background-image: url(apps.png);
@@ -52,12 +59,11 @@ text-decoration: underline;
 }
 
 #apps:hover {
-    background-image: url(apps-hover.png);
-    opacity: 0.85;
+  background-image: url(apps-hover.png);
+  opacity: 0.85;
 }
 
 #logo{
-
   background-size: 272px 92px;
   height: 92px;
   width: 272px;
@@ -66,15 +72,35 @@ text-decoration: underline;
   display: flex;
   justify-content: flex-end;
   align-items: flex-end;
-
 }
 
 
 #country-indicator{
-    font-family: 'Roboto', sans-serif;
-    color: #4285F4;
-    margin-right: 35px
+  font-family: 'Roboto', sans-serif;
+  color: #4285F4;
+  margin-right: 35px
+}
 
+#search-bar{
+  display: flex;
+  margin: 40px auto 0 auto;
+  background-color: #ffffff;
+  border: 0.1px #d9d9d9 solid;
+  width: 45%;
+  height: 40px;
+  box-shadow: .5px .5px 2px 0px #999;
+  color: black;
+}
 
+#search-bar:hover{
+  box-shadow: .5px .5px 6px 0px #999;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
 
 }
